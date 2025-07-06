@@ -2,8 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <base href="./"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pomodoro Timer Widget - Demo</title>
     <style>
       * {
@@ -316,9 +315,9 @@
 
       async function initializeApp() {
         try {
-          await loadScript("/polyfills-6YOLJV4E.js");
+          await loadScript("pomodoro-timer/polyfills-6YOLJV4E.js");
           await loadScript(
-            "/main-F6IRWQNC.js",
+            "pomodoro-timer/main-F6IRWQNC.js",
             true
           );
 
